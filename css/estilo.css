@@ -1,0 +1,361 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    /*font-size: 15px;*/
+    font-family: 'Roboto', sans-serif;
+    /*color: #5E5D5D;*/
+}
+
+.contenedor{
+    padding: 180px 0;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.titulo{
+    color: #642a73;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+/* HEADER */
+
+header{
+    width: 100%;
+    height: 600px;
+    background: #536976;  
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #292E49, #536976), url(../img/img6.jpg);  
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #292e497e, #536976), url(../img/img6.jpg); 
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+
+nav{
+    text-align: right;
+    padding: 30px 50px 0 0;
+}
+
+nav > a{
+    color: #fff;
+    font-weight: 300;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+nav > a:hover{
+    text-decoration: underline;
+}
+
+header .textos-header{
+    display: flex;
+    height: 430px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.textos-header h1{
+    font-size: 50px;
+    color: #fff;
+
+}
+
+.textos-header h2{
+    font-size: 30px;
+    font-weight: 300;
+    color: #fff;
+}
+
+.wave{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+/* LOGIN */
+
+.login-box{
+    width: 600px;
+    height: 400px;
+    color: #fff;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+    /*border: 5px solid black;*/
+}
+
+.login-box .avatar{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    position: absolute;
+    top: 50px;
+    left: calc(20% - 170px);
+}
+
+.login-box h1{
+    margin: 0;
+    color: #642a73;
+    padding: 0 0 20px;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.login-box label{
+    margin: 0;
+    height: 0;
+    font-weight: bold;
+    display: block;
+}
+
+.login-box input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.login-box input[type="correo"],
+.login-box input[type="contraseña"]{
+    border: none;
+    border-bottom: 1px solid #272727;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    font-size: 16px;
+}
+
+.login-box input[type="submit"]{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #272727;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+}
+
+.login-box a{
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 20px;
+    color: #272727;
+}
+
+.login-box a:hover{
+    color: darkblue;
+}
+
+
+/* ANOUT US */
+
+.contenedor-sobre-nosotros{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.imagen-about-us{
+    margin-top: 8%;
+    margin-right: 8%;
+    width: 40%;
+    height: 30%;
+}
+
+.sobre-nosotros .contenedor-textos{
+    width: 48%;
+}
+
+.contenedor.texto h3{
+    margin-bottom: 15px;
+}
+
+.contenedor-textos h3 span{
+    background: #272727;
+    color: #fff;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    padding: 2px;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5);
+    margin-right: 5px;
+}
+
+.contenedor-textos p{
+    padding: 0px 0px 30px 15px;
+    font-weight: 300;
+    text-align: justify;
+}
+
+.portafolio{
+    background: #f2f2f2;
+}
+
+.galeria-port{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.imagen-port{
+    width: 50%;
+    margin-bottom: 15px;
+
+    height: 150px;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5);
+}
+
+.imagen-port > img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.hover-galeria{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0%;
+    transform: scale(0);
+    background: hsla(0, 0%, 28%, 0.7);
+    transition: transform .5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.hover-galeria img{
+    width: 100px;
+}
+
+.hover-galeria p{
+    color: #fff;
+}
+
+.imagen-port:hover .hover-galeria{
+    transform: scale(1) ;
+}
+
+/* CLIENTS */
+
+.cards{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.cards .card{
+    background: #272727;
+    display: flex;
+    width: 46%;
+    height: 200px;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 5px;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.6);
+}
+
+.cards .card img{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border: 3px solid #00447c;;
+    border-radius: 50%;
+    display: block;
+}
+
+.cards .card > .contenido-texto-card{
+    width: 60%;
+    color: #fff;
+}
+
+.cards .card > .contenido-texto-card p{
+    font-weight: 300;
+    padding-top: 5px;
+}
+
+/* OUR TEAM */
+
+.about-services{
+    background: #f2f2f2;
+    padding-bottom: 30px;
+}
+
+.servicio-cont{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.servicio-ind{
+    width: 28%;
+    text-align: center;
+}
+
+.servicio-ind img{
+    width: 90%;
+}
+
+.servicio-ind h3{
+    margin: 10px 0;
+}
+
+.servicio-ind p{
+    font-weight: 300;
+    text-align: justify;
+}
+
+
+/* FOOTER */
+
+footer{
+    background: #272727;
+    padding: 60px 0 30px 0;
+    margin: auto;
+    overflow: hidden;
+}
+
+.contenedor-footer{
+    display: flex;
+    width: 90%;
+    justify-content: space-evenly;
+    margin: auto;
+    padding-bottom: 50px;
+    border-bottom: 1px solid #ccc;
+}
+
+.content-foo h4{
+    color: #fff;
+    border-bottom: 3px solid #00447c;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.content-foo p{
+    color: #fff;
+}
+
+.titulo-final{
+    text-align: center;
+    font-size: 24px;
+    margin: 20px 0 0 0;
+    color:hsla(0, 0%, 28%, 0.7)
+}
