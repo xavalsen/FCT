@@ -8,9 +8,11 @@
     <title>Página web Practicas</title>
     <link rel="shortcut icon" href="img/oie_eW6kViafvWWW.png" type="image/x-icon">
     <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="css/popup.css">
 </head>
 
 <body>
+   
     <header>
         <nav>
             <a href="index.html">Inicio</a>
@@ -18,7 +20,7 @@
             <a href="#">Portfolio</a>
             <a href="#">Servicios</a>
             <a href="#">Contacto</a>
-            
+
         </nav>
         <section class="textos-header">
             <h1>Potencia tus ventas al menos un 200%</h1>
@@ -29,8 +31,9 @@
                 <path d="M0.00,49.98 C149.99,150.00 349.20,-49.98 500.00,49.98 L500.00,150.00 L0.00,150.00 Z"
                     style="stroke: none; fill: rgb(255, 255, 255);"></path>
             </svg></div>
-    </header> 
-                   <!--<img src="img/logo.png" alt="" class="imagen-about-us">
+    </header>
+    
+    <!--<img src="img/logo.png" alt="" class="imagen-about-us">
                 <div class="contenedor-textos">
                     <h3><span>1</span>Los mejores productos</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae nesciunt earum sunt commodi
@@ -43,68 +46,114 @@
                 </div>
             </div>-->
     <main>
-        <section class="contenedor sobre-nosotros">
-        <!-- <h2 class="titulo">Nuestro producto</h2>
-            <div class="contenedor-sobre-nosotros">-->
-                <div class="login-box">
-            <img class="avatar" src="img/oie_eW6kViafvWWW.png" alt="Logo login">
-            <h1>Accede para comprar</h1>
-            <form>
-                <label for="correo">Correo</label>
+    </from>
+        <div id="popup" class="overlay">
+        <div id="popupBody">
+            <!--<img class="avatarReg" src="img/oie_eW6kViafvWWW.png" alt="Logo login">-->
+            <br>
+            <h2>Registrate</h2>
+            <a id="cerrar" href="#">&times;</a>
+            <div class="popupContent">
+                <br>
+                <!--<label for="correo">Nombre:</label>-->
+                <input type="correo" placeholder="Entre Nombre">
+                <br><br><br>
+                <!--<label for="correo">Correo:</label>-->
                 <input type="correo" placeholder="Entre Correo">
-
-                <label for="contraseña">Contraseña</label>
+                <br><br><br>
+                <!--<label for="correo">Direccion:</label>-->
+                <input type="correo" placeholder="Entre Direccion">
+                <br><br><br>
+                <!--<label for="contraseña">Contraseña:</label>-->
                 <input type="contraseña" placeholder="Entre contraseña">
-
+                <br><br><br>
+                <!--<label for="contraseña">Confirmacion contraseña:</label>-->
+                <input type="contraseña" placeholder="Confirme contraseña">
+                <br><br><br><br>
                 <input type="submit" value="Acceder">
+            </div>
 
-                <a href="#">¿Perdiste tu contraseña?</a>
-                <a href="#">¿No tienes una cuenta?</a>
-            </form>
+        </div>
+    </div>
+    <from>
+        <section class="contenedor sobre-nosotros">
+            <!-- <h2 class="titulo">Nuestro producto</h2>
+            <div class="contenedor-sobre-nosotros">-->
+            <div class="login-box">
+                <img class="avatar" src="img/oie_eW6kViafvWWW.png" alt="Logo login">
+                <h1>Accede para comprar</h1>
+                <form>
+                    <label for="correo">Correo</label>
+                    <input type="correo" placeholder="Entre Correo">
+
+                    <label for="contraseña">Contraseña</label>
+                    <input type="contraseña" placeholder="Entre contraseña">
+
+                    <input type="submit" value="Acceder">
+
+                    <a href="#">¿Perdiste tu contraseña?</a>
+                    <a href="#popup">¿No tienes una cuenta?</a>
+                </form>
+               
         </section>
+
         <section class="portafolio">
             <div class="contenedor">
                 <h2 class="titulo">Productos</h2>
                 <div class="galeria-port">
-                    
+
                     <div class="imagen-port">
-                        
+
                         <img src="img/img1.jpg" alt="">
                         <a href="Cocina/menuCocina.html">
-                        <div  class="hover-galeria">
-                            <!--<img src="img/logo.png" alt="">-->
-                            <p ><FONT SIZE=5>COCINAS</FONT></p>
-                        </div>
+                            <div class="hover-galeria">
+                                <!--<img src="img/logo.png" alt="">-->
+                                <p>
+                                    <FONT SIZE=5>COCINAS</FONT>
+                                </p>
+                            </div>
                         </a>
                     </div>
-                
+
                     <div class="imagen-port">
                         <img src="img/img2.jpg" alt="">
-                        <a href="baños.html">
-                        <div class="hover-galeria">
-                            <p><FONT SIZE=5>BAÑOS</FONT></p>
-                        </div></a>
+                        <a href="Ceramica/menuCeramica.html">
+                            <div class="hover-galeria">
+                                <p>
+                                    <FONT SIZE=5>BAÑOS</FONT>
+                                </p>
+                            </div>
+                        </a>
                     </div>
                     <div class="imagen-port">
                         <img src="img/ceramicas.jpg" alt="">
-                        <a href="ceramica.html">
-                        <div class="hover-galeria">
-                            <p><FONT SIZE=5>CERAMICA</FONT></p>
-                        </div></a>
+                        <a href="Ceramica/menuCeramica.html">
+                            <div class="hover-galeria">
+                                <p>
+                                    <FONT SIZE=5>CERAMICA</FONT>
+                                </p>
+                            </div>
+                        </a>
                     </div>
                     <div class="imagen-port">
                         <img src="img/baño.jpg" alt="">
                         <a href="decoracion.html">
-                        <div class="hover-galeria">
-                            <p><FONT SIZE=5>DECORACION</FONT></p>
-                        </div></a>
+                            <div class="hover-galeria">
+                                <p>
+                                    <FONT SIZE=5>DECORACION</FONT>
+                                </p>
+                            </div>
+                        </a>
                     </div>
                     <div class="imagen-port">
                         <img src="img/img5.jpg" alt="">
                         <a href="mcf.html">
-                        <div class="hover-galeria">
-                            <p align="center"><FONT SIZE=5>MATERIALES DE CONTRUCCIÓN Y FERRETERIA</FONT></p>
-                        </div></a>
+                            <div class="hover-galeria">
+                                <p align="center">
+                                    <FONT SIZE=5>MATERIALES DE CONTRUCCIÓN Y FERRETERIA</FONT>
+                                </p>
+                            </div>
+                        </a>
                     </div>
                 </div>
             </div>
