@@ -1,0 +1,957 @@
+@media screen and (min-width:1920px) {
+
+    /*-------------------Worker front-----------------------*/
+
+    /*----------Oferta-------------*/
+    #containerOfertaW {
+        width: 50%;
+        height: 50%;
+        position: relative;
+        left: 25%;
+        margin-top: 8%;
+    }
+
+    #containerOfertaW>#Productos {
+        width: 96%;
+        height: 140px;
+        margin-left: 2%;
+        margin-top: 2%;
+        margin-bottom: 2%;
+        display: block;
+    }
+
+    #containerOfertaW>#addOferta {
+        margin-left: 77%;
+        margin-top: 2%;
+        margin-bottom: 2%;
+    }
+
+    #containerOfertaW>#Productos>img {
+        width: 40%;
+        height: 100px;
+        margin-left: 2%;
+        margin-top: 2%;
+    }
+
+    #containerOfertaW>#Productos>div {
+        width: 70%;
+        margin-left: 22%;
+        margin-top: -9%;
+        height: 40%;
+    }
+
+    #containerOfertaW>#Productos>div>label,
+    select,
+    button {
+        width: 200px;
+        height: 30px;
+        margin-top: 2%;
+        margin-bottom: 2%;
+        margin-left: 5%;
+    }
+
+    #containerOfertaW>#ListProductos {
+        margin-left: 2%;
+        margin-top: 2%;
+        margin-bottom: 2%;
+        width: 96%;
+        height: 150px;
+        height: auto;
+    }
+
+    #containerOfertaW>#ListProductos>#title {
+        width: 99%;
+        height: 10%;
+        text-align: center;
+        border-style: groove;
+    }
+
+    #containerOfertaW>#ListProductos>#viewProductos {
+        width: 99%;
+        height: auto;
+        border-style: solid;
+    }
+
+    #containerOfertaW>#ListProductos>#viewProductos>div {
+        border-bottom-style: groove;
+    }
+
+    #containerOfertaW>#ListProductos>#viewProductos>div>button {
+        float: right;
+        margin-right: 1%;
+        width: 5%;
+        margin-top: -4.5%;
+    }
+
+    /*------------------------------------------------------*/
+    /*------------------------------------------------------*/
+    /*-------------------Client front-----------------------*/
+
+
+    /*-------------------- Page register--------------------*/
+
+    #formRegister {
+        width: 50%;
+        height: 450px;
+        left: 5%;
+        margin-top: 8%;
+        position: relative;
+        /*border-style: groove;*/
+    }
+
+    #footerRegister {
+        /*Sizes*/
+        width: 94%;
+        height: 200px;
+        /*Margins*/
+        left: 3%;
+        /*margin-top: 17%;*/
+        margin-top: 4%;
+        /*Positions*/
+        position: absolute;
+        /*Only if you desing the layout*/
+        border-style: groove;
+    }
+
+    /*-------------------- Page Carrito--------------------*/
+
+    #containerCarrito {
+        width: 90%;
+        height: 50%;
+        margin-top: 6%;
+        margin-left: 5%;
+    }
+
+    #containerCarrito>#displayItems {
+        position: relative;
+        left: 30%;
+        width: 40%;
+        height: 20%;
+        bottom: 5%;
+        top: 1%;
+        border-style: groove;
+        overflow: auto;
+    }
+
+    #containerCarrito>#displayItems>#producto {
+        position: relative;
+        width: 60%;
+        margin-top: 5%;
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+
+    #btnPagar {
+        position: relative;
+        margin-left: 30%;
+        margin-bottom: 2%;
+        width: 40%;
+        text-align: center;
+    }
+
+    #btnPagar>button {
+        margin-top: 2%;
+        height: 30px;
+        width: 30%;
+    }
+
+    /*-------------------- Page Metodo Pago--------------------*/
+
+    #containerMetodoPago {
+        width: 40%;
+        height: 40%;
+        margin-top: 8%;
+        margin-left: 30%;
+        border-style: groove;
+    }
+
+    #containerMetodoPago>form {
+        position: relative;
+        width: 100%;
+        text-align: center;
+        margin-bottom: 5%;
+        margin-top: 5%;
+    }
+
+    #containerMetodoPago>form>input {
+        size: 90;
+    }
+
+    /*-------------------- Page Products--------------------*/
+
+    #containerProducts {
+        position: relative;
+        margin-top: 7%;
+        left: 5%;
+        width: 90%;
+    }
+
+    #containerProducts>h1 {
+        font-size: 35pt;
+    }
+
+    #fila1 {
+        width: 100%;
+        height: 40%;
+        float: left;
+        display: block;
+        overflow-x: auto;
+    }
+
+    #fila2 {
+        width: 100%;
+        height: 40%;
+        float: left;
+        display: block;
+        overflow-x: auto;
+    }
+
+    #fila1>#producto {
+        width: 30%;
+        height: 30%;
+        float: left;
+        margin-left: 3%;
+    }
+
+    #fila2>#producto {
+        width: 30%;
+        height: 30%;
+        float: left;
+        margin-left: 3%;
+    }
+
+    #producto>img {
+        width: 50%;
+        height: 40%;
+    }
+
+    #producto>#text {
+        margin-top: 10%;
+        float: right;
+        margin-right: 10%;
+        display: block;
+    }
+
+    /*-------------------- Page Hacer reserva--------------------*/
+
+    #containerReserva {
+        position: relative;
+        left: 15%;
+        width: 70%;
+        height: 772px;
+        margin-top: 7%;
+    }
+
+    #containerReserva>h1 {
+        font-size: 35pt;
+    }
+
+    #Reserva {
+        border-style: groove;
+        height: 85%;
+    }
+
+    #Reserva>#infoReserva {
+        position: relative;
+        width: 40%;
+        left: 3%;
+        top: 3%;
+        height: 40%;
+        border-style: dotted;
+    }
+
+    #Reserva>#infoReserva>p {
+        margin-left: 2%;
+    }
+
+    #Reserva>#Calendario {
+        position: relative;
+        border-style: dotted;
+        width: 40%;
+        left: 3%;
+        top: 5%;
+        height: 48%;
+    }
+
+    #Reserva>#Calendario>h3 {
+        margin-left: 2%;
+    }
+
+    #Reserva>#Calendario>form {
+        margin-left: 2%;
+        margin-right: 4%;
+    }
+
+    #Reserva>#Calendario>p>img {
+        width: 25px;
+        height: 25px;
+        margin-right: 3%;
+        border: 1px solid;
+        margin-left: 2%;
+    }
+
+    #Reserva>#ContenidoTabla {
+        position: relative;
+        width: 53%;
+        height: 90%;
+        left: 45%;
+        top: -87%;
+        overflow-y: auto;
+        border-style: dotted;
+    }
+
+    #Reserva>#ContenidoTabla>table {
+        border-style: groove;
+        text-align: center;
+        border: 1px solid black;
+        width: 100%;
+    }
+
+    #Reserva>#ContenidoTabla>table>tr,
+    th,
+    td {
+        border-style: groove;
+        text-align: center;
+    }
+
+    /*-------------------- Page Ver Reservas--------------------*/
+
+    #containerReservas {
+        position: relative;
+        left: 5%;
+        width: 90%;
+        height: 780px;
+        margin-top: 7%;
+    }
+
+    #containerReservas>h1 {
+        font-size: 35pt;
+    }
+
+    #Reservas {
+        border-style: groove;
+        height: 84%;
+    }
+
+    #Reservas>#infoReserva {
+        position: relative;
+        width: 20%;
+        left: 3%;
+        top: 3%;
+    }
+
+    #Reservas>#infoReserva>p>img {
+        width: 25px;
+        height: 25px;
+        margin-right: 3%;
+        border: 1px solid;
+    }
+
+    #Reservas>#Calendario {
+        position: relative;
+        border-style: dotted;
+        width: 20%;
+        left: 3%;
+        top: 5%;
+    }
+
+    #Reservas>#Contenido {
+        position: relative;
+        float: right;
+        width: 70%;
+        right: 3%;
+        top: -39%;
+        overflow-y: auto;
+    }
+
+    #Reservas>#Contenido>table {
+        border-style: groove;
+        text-align: center;
+        border: 1px solid black;
+        width: 100%;
+    }
+
+    #Reservas>#Contenido>table>tr,
+    th,
+    td {
+        border-style: groove;
+        text-align: center;
+    }
+
+    /*--------------------Pedido Domicilio--------------------*/
+
+    #containerDomicilio {
+        height: 600px;
+        width: 100%;
+        border-style: groove;
+    }
+
+    #containerDomicilio>h2,
+    form {
+        position: relative;
+        left: 2%;
+    }
+
+    #containerDomicilio>h2 {
+        font-size: 25pt;
+    }
+
+    #containerDomicilio>form>#Pos1 {
+        margin-left: 3%;
+        position: relative;
+        margin-top: 4%;
+        width: 90%;
+        height: 40px;
+    }
+
+    #containerDomicilio>form>#Pos1>label {
+        text-align: center;
+        margin-left: 20%;
+    }
+
+    #containerDomicilio>form>#Pos2 {
+        margin-left: 3%;
+        position: relative;
+        margin-top: 5%;
+        width: 90%;
+        height: 40px;
+        text-align: center;
+    }
+
+    #containerDomicilio>form>#Pos2>input {
+        width: 20%;
+        margin-left: 2%;
+    }
+
+    #containerDomicilio>form>#doIt {
+        position: relative;
+        width: 20%;
+        height: 50px;
+        margin-left: 40%;
+        margin-top: 5%;
+    }
+
+    #containerDomicilioGeneral {
+        position: relative;
+        margin-top: 7%;
+        width: 80%;
+        left: 10%;
+        height: 780px;
+    }
+
+    #containerDomicilioGeneral>h1 {
+        font-size: 35pt;
+    }
+
+    /*-------------------- Page Main--------------------*/
+    /**/
+    header {
+        /*Sizes*/
+        width: 94%;
+        height: 10%;
+        /*Margins*/
+        top: 1%;
+        left: 3%;
+        /*Positions*/
+        position: fixed;
+        /*Only if you desing the layout*/
+        /*background-color: rgb(150, 150, 223);*/
+    }
+
+    header>a {
+        float: left;
+        width: 10%;
+        height: 100%;
+    }
+
+    #imagen {
+        width: 100%;
+        height: 100%;
+    }
+
+    #header>a:hover {
+        background-color: rgb(199, 190, 190);
+    }
+
+    #containerTrowell {
+        float: right;
+        margin-right: 0%;
+        top: -10%;
+        /*background-color: blue;*/
+        width: 57%;
+        height: 91px;
+        overflow: none;
+        margin-left: 5%;
+    }
+
+    #containerTrowell>a {
+        float: left;
+        display: block;
+        width: 12%;
+        /*height: max-content;*/
+        padding: 37px 2.33%;
+        text-align: center;
+        background-color: white;
+        text-decoration: none;
+    }
+
+    header>#containerTrowell>#carrito {
+        width: 12%;
+        height: 19px;
+
+    }
+
+    header>#containerTrowell>#carrito>img {
+        margin-top: -20%;
+        width: 70px;
+        height: 70px;
+    }
+
+    #containerTrowell>a:hover {
+        background-color: rgb(199, 190, 190);
+    }
+
+    /*Carrusel*/
+    #containerOferts {
+        /*Sizes*/
+        width: 50%;
+        height: 400px;
+        /*Margins*/
+        margin-top: 13%;
+        left: 3%;
+        margin-top: 7%;
+        /*Positions*/
+        position: relative;
+    }
+
+    /*Title Oferts*/
+    #titleOferts {
+        /*Sizes*/
+        width: 80%;
+        height: 50px;
+        /*Margins*/
+        left: 10%;
+        /*Positions*/
+        position: relative;
+        /*Only if you desing the layout*/
+        background-color: rgb(112, 112, 112);
+        text-align: center;
+        color: white;
+    }
+
+    #containerOferts>#btnnav {
+        position: relative;
+    }
+
+    #containerOferts>#btnnav>#btnPrev {
+        position: relative;
+        float: left;
+        left: -4%;
+        margin-top: -0.1%;
+        width: 9%;
+        height: 349px;
+    }
+
+    #containerOferts>#btnnav>#btnNext {
+        position: relative;
+        float: right;
+        margin-right: -3.5%;
+        left: -4%;
+        margin-top: -0.1%;
+        width: 9%;
+        height: 349px;
+    }
+
+    /*Img*/
+    #containerOferts>#btnnav>#buttonImg {
+        /*Sizes*/
+        width: 80%;
+        height: 343px;
+        /*Margins*/
+        margin-right: 10%;
+        margin-left: 10%;
+        margin-top: 0.2%;
+        /*Border*/
+        border-style: groove;
+    }
+
+    /*Login*/
+    aside {
+        /*Sizes*/
+        width: 25%;
+        height: 490px;
+        /*Margins*/
+        right: 2.5%;
+        /*Positions*/
+        position: relative;
+        float: right;
+        /*Border*/
+        border-style: groove;
+    }
+
+    #containerLogin {
+        /*Sizes*/
+        width: 90%;
+        height: 92%;
+        /*Position*/
+        left: 5%;
+        top: 5%;
+        position: relative;
+    }
+
+    #TitleLogin {
+        width: 90%;
+        left: 5%;
+        top: 5%;
+        position: relative;
+        border-bottom-style: groove;
+    }
+
+    #containerFormLogin {
+        width: 90%;
+        left: 5%;
+        top: 10%;
+        position: relative;
+    }
+
+    #rememberText {
+        top: 10%;
+        position: relative;
+    }
+
+    #btnLogin {
+        float: right;
+        margin-right: 10%;
+        width: 90px;
+        height: 30px;
+    }
+
+    #textRegister {
+        /*Sizes*/
+        width: 90%;
+        height: auto;
+        /*Margin*/
+        left: 5%;
+        top: 15%;
+        position: relative;
+    }
+
+    #textRegister>a {
+        color: black;
+    }
+
+    #ContainerPedidoSinRegistrar {
+        /*Sizes*/
+        height: 40%;
+        width: 100%;
+        /*Margin*/
+        left: 5%;
+        top: 20%;
+        position: relative;
+    }
+
+    #PedidoSinRegistrar {
+        /*Sizes*/
+        height: 40%;
+        width: 90%;
+        /*Margin*/
+        top: 5%;
+        position: relative;
+    }
+
+    /*Tab*/
+    footer {
+        /*Sizes*/
+        width: 94%;
+        height: 250px;
+        /*Margins*/
+        left: 3%;
+        margin-top: 6%;
+        /*Positions*/
+        position: fixed;
+        /*Border*/
+        border-style: groove;
+    }
+
+    #buttonsTab {
+        /*Sizes*/
+        width: 28%;
+        height: 60px;
+        /*Margins*/
+        margin-top: -3.7%;
+        left: -0.15%;
+        position: relative;
+        /*Positions*/
+        float: left;
+        /*Border*/
+        border-top-style: groove;
+        border-left-style: groove;
+        border-right-style: groove;
+    }
+
+    #buttonsTab>a {
+        float: left;
+        display: block;
+        width: 32%;
+        /*height: max-content;*/
+        padding: 21px 0.64%;
+        text-align: center;
+        background-color: white;
+        text-decoration: none;
+    }
+
+    #buttonsTab>a:hover {
+        background-color: rgb(199, 190, 190);
+    }
+}
+
+@media screen and (min-width:1080px) and (max-width:1919px) {
+
+    /*Page ofertas*/
+    #cajaOfertas {
+        width: 50%;
+        height: 450px;
+        left: 5%;
+        margin-top: 8%;
+        position: relative;
+        border-radius: 10px;
+        border-style: groove;
+    }
+
+    /*Page register*/
+
+    #formRegister {
+        width: 50%;
+        height: 450px;
+        left: 5%;
+        margin-top: 8%;
+        position: relative;
+        border-radius: 10px;
+        border-style: groove;
+    }
+
+    #labels {
+        display: inline-block;
+        float: left;
+        clear: right;
+        width: 200px;
+        text-align: left;
+    }
+
+    #formBorders {
+        /*
+        box-shadow: 0 4px 6px -5px hsl(0, 0%, 40%), inset 0px 4px 6px -5px black;
+        */
+        border-radius: 8px;
+    }
+
+    #formButton {
+        /*
+        text-align: center;
+        
+        */
+        margin: 0 auto;
+        display: block;
+
+    }
+
+    #footerRegister {
+        /*Sizes*/
+        width: 94%;
+        height: 140px;
+        /*Margins*/
+        left: 3%;
+        /*margin-top: 17%;*/
+        margin-top: 4%;
+        /*Positions*/
+        position: absolute;
+        border-style: groove;
+    }
+
+    /* Page Main*/
+    /*Nav*/
+    header {
+        /*Sizes*/
+        width: 94%;
+        height: 10%;
+        /*Margins*/
+        top: 1%;
+        left: 3%;
+        /*Positions*/
+        position: fixed;
+        /*Only if you desing the layout*/
+        background-color: rgb(150, 150, 223);
+    }
+
+    /*Carrusel*/
+    #containerOferts {
+        /*Sizes*/
+        width: 50%;
+        height: 400px;
+        /*Margins*/
+        margin-top: 13%;
+        left: 10%;
+        margin-top: 6%;
+        /*Positions*/
+        position: relative;
+        /*Only if you desing the layout*/
+        /*background-color: orange;*/
+    }
+
+    /*Title Oferts*/
+    #titleOferts {
+        /*Sizes*/
+        width: 80%;
+        height: 50px;
+        /*Margins*/
+        margin-top: 13%;
+        left: 10%;
+        margin-top: 9%;
+        /*Positions*/
+        position: relative;
+        /*Only if you desing the layout*/
+        background-color: rgb(0, 255, 34);
+        text-align: center;
+    }
+
+    /*Img*/
+    #buttonImg {
+        /*Sizes*/
+        width: 80%;
+        height: 343px;
+        /*Margins*/
+        margin-right: 10%;
+        margin-left: 10%;
+        margin-top: 0.6%;
+        /*Only if you desing the layout*/
+        background-color: cornflowerblue;
+    }
+
+    /*Buttons*/
+    #prev {
+        float: left;
+        width: 10%;
+        height: 343px;
+    }
+
+    #next {
+        float: right;
+        width: 10%;
+        height: 343px;
+    }
+
+    /*Login*/
+    aside {
+        /*Sizes*/
+        width: 30%;
+        height: 490px;
+        /*Margins*/
+        right: 2.5%;
+        /*Positions*/
+        position: relative;
+        float: right;
+        /*Only if you desing the layout*/
+        /*background-color: purple;*/
+    }
+
+    #containerLogin {
+        /*Sizes*/
+        width: 90%;
+        height: 92%;
+        /*Position*/
+        left: 5%;
+        top: 0%;
+        position: relative;
+        /*Only if you desing the layout*/
+        background-color: yellowgreen;
+    }
+
+    #TitleLogin {
+        width: 90%;
+        left: 5%;
+        top: 5%;
+        position: relative;
+    }
+
+    #containerFormLogin {
+        width: 90%;
+        left: 5%;
+        top: 10%;
+        position: relative;
+    }
+
+    #rememberText {
+        top: 10%;
+        position: relative;
+    }
+
+    #btnLogin {
+        float: right;
+        margin-right: 10%;
+        width: 90px;
+        height: 30px;
+    }
+
+    #textRegister {
+        /*Sizes*/
+        width: 90%;
+        height: auto;
+        /*Margin*/
+        left: 5%;
+        top: 15%;
+        position: relative;
+        /*Only if you desing the layout*/
+        background-color: violet;
+    }
+
+    #ContainerPedidoSinRegistrar {
+        /*Sizes*/
+        height: 40%;
+        width: 100%;
+        /*Margin*/
+        left: 5%;
+        top: 20%;
+        position: relative;
+    }
+
+    #PedidoSinRegistrar {
+        /*Sizes*/
+        height: 40%;
+        width: 90%;
+        /*Margin*/
+        top: 5%;
+        position: relative;
+    }
+
+    /*Tab*/
+    footer {
+        /*Sizes*/
+        width: 87.3%;
+        height: 190px;
+        /*Margins*/
+        left: 10%;
+        margin-top: 6%;
+        /*Positions*/
+        position: fixed;
+    }
+
+    #buttonsTab {
+        /*Sizes*/
+        width: 28%;
+        height: 60px;
+        /*Margins*/
+        margin-top: -3.59%;
+        /*Positions*/
+        float: left;
+        /*Only if you desing the layout*/
+        background-color: chocolate;
+    }
+
+    /*Only if you desing the layout*/
+
+}
+
+/*--------------------------------Mobil y tablet----------------------------------*/
+@media screen and (max-width:990px){
+
+}

@@ -12,7 +12,7 @@
 </head>
 
 <body>
-   
+
     <header>
         <nav>
             <a href="index.html">Inicio</a>
@@ -32,69 +32,57 @@
                     style="stroke: none; fill: rgb(255, 255, 255);"></path>
             </svg></div>
     </header>
-    
-    <!--<img src="img/logo.png" alt="" class="imagen-about-us">
-                <div class="contenedor-textos">
-                    <h3><span>1</span>Los mejores productos</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae nesciunt earum sunt commodi
-                        quia similique praesentium incidunt blanditiis esse sapiente possimus voluptate, cumque est
-                        perferendis hic iusto eaque tenetur saepe!</p>
-                    <h3><span>2</span>Los mejores productos</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae nesciunt earum sunt commodi
-                        quia similique praesentium incidunt blanditiis esse sapiente possimus voluptate, cumque est
-                        perferendis hic iusto eaque tenetur saepe!</p>
-                </div>
-            </div>-->
     <main>
-    </from>
-        <div id="popup" class="overlay">
-        <div id="popupBody">
-            <!--<img class="avatarReg" src="img/oie_eW6kViafvWWW.png" alt="Logo login">-->
-            <br>
-            <h2>Registrate</h2>
-            <a id="cerrar" href="#">&times;</a>
-            <div class="popupContent">
-                <br>
-                <!--<label for="correo">Nombre:</label>-->
-                <input type="correo" placeholder="Entre Nombre">
-                <br><br><br>
-                <!--<label for="correo">Correo:</label>-->
-                <input type="correo" placeholder="Entre Correo">
-                <br><br><br>
-                <!--<label for="correo">Direccion:</label>-->
-                <input type="correo" placeholder="Entre Direccion">
-                <br><br><br>
-                <!--<label for="contraseña">Contraseña:</label>-->
-                <input type="contraseña" placeholder="Entre contraseña">
-                <br><br><br>
-                <!--<label for="contraseña">Confirmacion contraseña:</label>-->
-                <input type="contraseña" placeholder="Confirme contraseña">
-                <br><br><br><br>
-                <input type="submit" value="Acceder">
-            </div>
 
+        <div id="popup" class="overlay">
+            <div id="popupBody">
+                <!--<img class="avatarReg" src="img/oie_eW6kViafvWWW.png" alt="Logo login">-->
+                <br>
+                <h2>Registrate</h2>
+                <a id="cerrar" href="#">&times;</a>
+                <from name="formLogin" action="registrar.php"method="post">
+                    <div class="popupContent">
+                        <br>
+                        <!--<label for="correo">Nombre:</label>-->
+                        <input type="Nombre" name="Nombre" placeholder="Entre Nombre" required>
+                        <br><br><br>
+                        <!--<label for="correo">Correo:</label>-->
+                        <input type="Email" name="Email" placeholder="Entre Correo" required>
+                        <br><br><br>
+                        <!--<label for="correo">Direccion:</label>-->
+                        <input type="Telefono" name="Telefono" placeholder="Entre Telefono" required>
+                        <br><br><br>
+                        <!--<label for="contraseña">Contraseña:</label>-->
+                        <input type="Password" name="Password" placeholder="Entre contraseña" required>
+                        <br><br><br>
+                        <!--<label for="contraseña">Confirmacion contraseña:</label>-->
+                        <input type="Password" name="Password" placeholder="Confirme contraseña" required>
+                        <br><br><br><br>
+                        <input type="submit" value="Acceder">
+                    </div>
+                </from>
+            </div>
         </div>
-    </div>
-    <from>
+
         <section class="contenedor sobre-nosotros">
             <!-- <h2 class="titulo">Nuestro producto</h2>
             <div class="contenedor-sobre-nosotros">-->
             <div class="login-box">
                 <img class="avatar" src="img/oie_eW6kViafvWWW.png" alt="Logo login">
                 <h1>Accede para comprar</h1>
-                <form>
-                    <label for="correo">Correo</label>
-                    <input type="correo" placeholder="Entre Correo">
+                <form name="formLogin" action="datosusuario.php" method="GET">
+                    <label for="Email">Correo</label>
+                    <input type="Email" name="Email" placeholder="Entre Correo" required>
 
-                    <label for="contraseña">Contraseña</label>
-                    <input type="contraseña" placeholder="Entre contraseña">
+                    <label for="Password">Contraseña</label>
+                    <input type="Password" name="Password" placeholder="Entre contraseña" required>
 
                     <input type="submit" value="Acceder">
 
                     <a href="#">¿Perdiste tu contraseña?</a>
-                    <a href="#popup">¿No tienes una cuenta?</a>
+                    <a href="pagRegistro.php">¿No tienes una cuenta?</a>
                 </form>
-               
+
         </section>
 
         <section class="portafolio">
