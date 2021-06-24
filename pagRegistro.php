@@ -72,7 +72,7 @@
                     $mysqli->query("UPDATE usuario SET validado=1 WHERE usuario.Email ='$Email'");
                     echo ($mysqli->error);
                     echo ("<script>  error = 0; </script>");
-                    header("location: index.html");
+                    header("location: auth/login.html");
                 } else {
                     echo ("<script>  error = 1; </script>");
                 }
